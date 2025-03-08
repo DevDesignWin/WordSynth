@@ -1,10 +1,8 @@
-<p align="center">
-  <img src="public/thumbnail.jpg" alt="ThreadCraft AI Logo" />
-</p>
 
-# ThreadCraft AI: Social Media Content Generator
 
-ThreadCraft AI is a powerful Next.js application that leverages AI to generate engaging content for various social media platforms. This project uses cutting-edge technologies to provide users with an intuitive interface for creating Twitter threads, Instagram captions, and LinkedIn posts.
+# WordSynth: Social Media Content Generator
+
+WordSynth is a powerful Next.js application that leverages AI to generate engaging content for various social media platforms. This project uses cutting-edge technologies to provide users with an intuitive interface for creating Twitter threads, Instagram captions, and LinkedIn posts.
 
 ## Features
 
@@ -28,22 +26,7 @@ ThreadCraft AI is a powerful Next.js application that leverages AI to generate e
 - [Stripe](https://stripe.com/) - Payment processing for subscriptions
 - [Lucide React](https://lucide.dev/) - Icon library
 
-## Getting Started
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/threadcraft-ai.git
-   cd threadcraft-ai
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Set up environment variables:
+Set up environment variables:
    Create a `.env.local` file in the root directory and add the following variables:
 
    ```
@@ -55,24 +38,3 @@ ThreadCraft AI is a powerful Next.js application that leverages AI to generate e
    NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
    ```
 
-4. Run the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Deployment
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
